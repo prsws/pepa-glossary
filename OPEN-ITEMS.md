@@ -11,6 +11,8 @@ Questions about the glossary itself that are not settled. Edit this file by hand
 5. **Repository pass not yet run.** The terms come from earlier private drafts, ai4aging.org and project chats only.
 6. **José's error list from the 2026-09-04 skim** is still pending as far as the last pass could tell, so the v0.1 entries have not had those corrections applied.
 7. **Acronym handling.** José has a separate idea for acronyms, to be shared later.
+8. **How the human scope fits the reflex definition.** See [Pepa arm reflex](terms/pepa-arm-reflex.md), [Human scope](terms/human-scope.md).
+9. **How every reflex reaches the arm's ledger** when Home Assistant handles a command itself, before the arm's code sees it. See [The arm's ledger](terms/arm-ledger.md).
 
 ## Settled
 
