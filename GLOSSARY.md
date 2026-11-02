@@ -18,6 +18,8 @@ One line per term. Struck-through names have been replaced; the replacement is n
 - **Anti-climb gate**: Promotion to TESTED requires cross-entity / causally-independent corroboration, so a lone hallucinated inference can never climb on its own echo. [history](terms/anti-climb-gate.md)
 - **Append-only records**: Implementation logs and frozen artifacts are never edited; corrections go in new entries. [history](terms/append-only-records.md)
 - **Arm**: A specialized, semi-autonomous subsystem supervised by the Head. [history](terms/arm.md)
+- **arm ledger**: see **The arm's ledger**. [history](terms/arm-ledger.md)
+- **arm reflex**: see **Pepa arm reflex**. [history](terms/pepa-arm-reflex.md)
 - **Arm-boundary precedent**: Arms consume each other's ledgers, not each other's internals. [history](terms/arm-boundary-precedent.md)
 - **Ask before spending resources**: No unrequested benchmark runs, bulk operations, or token-heavy detours. [history](terms/ask-before-spending-resources.md)
 - **Auditor Arm**: see **Agent Smith**. [history](terms/agent-smith.md)
@@ -178,6 +180,7 @@ One line per term. Struck-through names have been replaced; the replacement is n
 - ~~PAHA~~ (Pepa Arm Home Agent): replaced by **Pepa Sensory Arm**. [history](terms/paha.md)
 - **PaperlessMD**: The medical-document ingestion lane; FHIR is an aspirational second structured layer beneath it. [history](terms/paperlessmd.md)
 - **Pepa**: A self-hosted, octopus-inspired cognitive infrastructure blueprint to help the elderly preserve memory, organize knowledge and keep agency. [history](terms/pepa.md)
+- **Pepa arm reflex**: A response that an arm completes on its own, from stimulus to effect, through rules declared in advance, without consulting the Head or another arm; others learn of it afterward, through the arm's ledger, never before. [history](terms/pepa-arm-reflex.md)
 - **Pepa Auditor Arm**: see **Agent Smith**. [history](terms/agent-smith.md)
 - **Pepa Fabric**: Pepa's household-scale ontology layer, a scaled-down counterpart to Palantir Foundry and Microsoft Fabric. [history](terms/pepa-fabric.md)
 - **Pepa Human Sentinel Arm**: The arm that watches the person's health signals; it never diagnoses, prescribes or escalates on its own. [history](terms/pepa-human-sentinel-arm.md)
@@ -218,10 +221,14 @@ One line per term. Struck-through names have been replaced; the replacement is n
 - **Reasoning Arm**: The heavier local thinking, "Reasoning as a Service": it suggests, the Head decides. Runs on the Mac Studio. [history](terms/reasoning-arm.md)
 - **Recon grade**: Evaluation depth marker: characterized but not committed to. [history](terms/recon-grade.md)
 - **Recorder**: The Human Sentinel Arm's record store plus its rules, and nothing else; the watching logic is a client of it. [history](terms/recorder.md)
-- **Reflex**: A direct, requested house action carried out through explicit, declared and guardrailed rules, never beyond them. [history](terms/reflex.md)
+- ~~Reflex~~: replaced by **Pepa arm reflex**. [history](terms/reflex.md)
+- **reflex corollary**: see **Request from another arm**. [history](terms/request-from-another-arm.md)
 - **remember this**: see **Fast-track**. [history](terms/fast-track.md)
 - **Representational entanglement**: In a transformer, a token's meaning, context, and apparent purpose are blended into one vector; there is no architectural seam separating content from intent, so the model must infer intent. [history](terms/representational-entanglement.md)
+- **Request from another arm**: Something the Head or another arm asks the Sensory Arm to do; not a reflex, decided by the asking arm, and bound by the Sensory Arm's physical and declared authority limits, whoever asked. [history](terms/request-from-another-arm.md)
 - **Retrieval ≠ authority**: Operational form of the above: recalled beliefs inform the prompt but never authorize a safety-critical actuation. [history](terms/retrieval-authority.md)
+- **reverse**: see **reverse label**. [history](terms/reverse-label.md)
+- **reverse label**: A Home Assistant label declaring that an entity's actions can be undone; without it, the house scope asks a person before acting. [history](terms/reverse-label.md)
 
 ## S
 
@@ -242,6 +249,7 @@ One line per term. Struck-through names have been replaced; the replacement is n
 
 ## T
 
+- **The arm's ledger**: What an arm observed and did, written once and owned by the arm that acted; the record through which others learn of its reflexes. [history](terms/arm-ledger.md)
 - **the climb**: see **False-memory climb**. [history](terms/false-memory-climb.md)
 - **the functor problem**: see **Representational entanglement**. [history](terms/representational-entanglement.md)
 - **Three exits** _(proposed)_: Every Head run ends in one of three exits: done, punted or error. Punted is a correct outcome, kept apart from error. [history](terms/three-exits.md)

@@ -14,3 +14,4 @@ The Sensory Arm's internal organs: one person's physiology and activity, from a 
 ## History
 
 - 2026-10-31: Added in Glossary v0.2, section 11.2.
+- 2026-11-01: Its future repository is named `pepa-sensory-arm-person`. How it fits the [Pepa arm reflex](pepa-arm-reflex.md) definition is open.
